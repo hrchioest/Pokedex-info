@@ -1,0 +1,149 @@
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Press Start 2P", cursive;
+  background-image: url("../gym-poke.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0px;
+  height: 80px;
+  font-size: 31px;
+  padding: 48px 0px 0px 26px;
+  color: #FFEB3B;
+  display: inline-block;
+}
+
+nav {
+  background: #123b9d;
+  display: flex;
+}
+
+.inputGo {
+  margin: 40px 23px 15px 29px;
+  height: 32px;
+  border-radius: 9px;
+  width: 198px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.boton-go {
+  width: 103px;
+  height: 37px;
+  margin: 40px 0px 0px 9px;
+  border-radius: 15px;
+  background: #85d05ae8;
+  border: 1px solid #85d05ae8;
+  color: #ead9d9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#img {
+  width: 250px;
+  background: yellow;
+  margin: 0px;
+  position: relative;
+  bottom: 239px;
+}
+
+.img-poke {
+  height: 70px;
+}
+
+.img-pikachu {
+  padding-left: 448px;
+}
+
+.wrapper-img {
+  width: 250px;
+  height: 239px;
+  border: 12px solid yellow;
+  border-radius: 7px;
+  margin: 30px;
+}
+
+.wrapper-id-name {
+  display: inline-block;
+  background: #1158c7;
+  padding: 8px;
+  border-radius: 7px;
+  color: whitesmoke;
+}
+
+.type {
+  padding: 7px;
+  border-radius: 4px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.name-type {
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.cards {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.egg {
+  height: 238px;
+}
+
+.card-info {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 20px;
+  background: rgba(211, 211, 155, 0.7);
+  line-height: 54px;
+}
+
+.card-types {
+  margin-top: 31px;
+  margin-bottom: 36px;
+  padding: 20px;
+  margin: 30px;
+  line-height: 38px;
+  background: rgba(211, 211, 155, 0.7);
+  font-size: 20px;
+}
+
+.font-cards {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.icono {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  bottom: 41px;
+  right: 21px;
+}
+
+.name {
+  border-radius: 6px;
+  font-size: 26px;
+}
+
+.wrapper-pokebola {
+  margin-top: 12px;
+}
+
+.wrapper-pokebola-name {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
