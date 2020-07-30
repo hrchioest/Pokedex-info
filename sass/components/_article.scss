@@ -1,5 +1,5 @@
 #img {
-  width: 250px;
+  width: 251px;
   background: yellow;
   margin: 0px;
   position: relative;
@@ -15,7 +15,11 @@
   height: 239px;
   border: 12px solid yellow;
   border-radius: 7px;
-  margin: 30px;
+  margin-top: 30px;
+
+  @include phone {
+    margin: auto;
+  }
 }
 .wrapper-id-name {
   display: inline-block;
@@ -40,8 +44,12 @@
   font-size: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   @include phone {
     justify-content: center;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    flex-direction: column;
   }
 }
 .egg {
@@ -53,10 +61,14 @@
   font-size: 20px;
   background: rgba(211, 211, 155, 0.7);
   line-height: 54px;
-  margin: 4px;
+  margin: 10px;
   @include desktop {
     margin-top: 30px;
     padding: 20px;
+    margin-left: 32px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 30px;
   }
 }
 .card-types {
@@ -97,5 +109,8 @@
   display: flex;
   @include phone {
     display: block;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    justify-content: center;
   }
 }

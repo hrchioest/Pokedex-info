@@ -2,18 +2,27 @@ h1 {
   font-size: 31px;
   color: #ffeb3b;
   display: inline-block;
+  @include desktop {
+    padding-left: 25px;
+  }
 }
 .content-title {
   text-align: center;
   padding: 18px 0px 0px 10px;
   @include desktop {
     text-align: initial;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 nav {
   background: #123b9d;
   display: block;
   width: 100%;
+  margin-bottom: 10px;
   @include desktop {
     display: flex;
     flex-wrap: wrap;
@@ -24,11 +33,14 @@ nav {
   display: flex;
   flex-direction: column;
   @include desktop {
-    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
 .content-pikachu {
@@ -52,11 +64,13 @@ nav {
   padding-left: 14px;
   height: 40px;
   @include desktop {
-    margin: 40px 23px 15px 29px;
     height: 32px;
     width: 198px;
     padding: 3px 5px 3px 8px;
     font-size: 18px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 237px;
   }
 }
 
@@ -74,8 +88,10 @@ nav {
   @include desktop {
     width: 103px;
     height: 43px;
+    margin: 0px;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     margin-top: 14px;
+    width: 200px;
   }
 }
