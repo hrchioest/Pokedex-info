@@ -1,0 +1,81 @@
+h1 {
+  font-size: 31px;
+  color: #ffeb3b;
+  display: inline-block;
+}
+.content-title {
+  text-align: center;
+  padding: 18px 0px 0px 10px;
+  @include desktop {
+    text-align: initial;
+  }
+}
+nav {
+  background: #123b9d;
+  display: block;
+  width: 100%;
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+.datos-poke {
+  display: flex;
+  flex-direction: column;
+  @include desktop {
+    display: block;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.content-pikachu {
+  padding-bottom: 10px;
+  text-align: center;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding-left: 77px;
+  }
+  @include desktop {
+    text-align: initial;
+  }
+}
+
+.inputGo {
+  margin: 17px;
+  width: auto;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 20px;
+  padding-left: 14px;
+  height: 40px;
+  @include desktop {
+    margin: 40px 23px 15px 29px;
+    height: 32px;
+    width: 198px;
+    padding: 3px 5px 3px 8px;
+    font-size: 18px;
+  }
+}
+
+.boton-go {
+  border-radius: 15px;
+  background: #85d05ae8;
+  border: 1px solid #85d05ae8;
+  color: #ead9d9;
+  font-size: 20px;
+  font-weight: bold;
+  height: 37px;
+  width: auto;
+  margin: 6px 42px;
+
+  @include desktop {
+    width: 103px;
+    height: 43px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 14px;
+  }
+}
