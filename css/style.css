@@ -1,0 +1,274 @@
+h1 {
+  font-size: 31px;
+  color: #ffeb3b;
+  display: inline-block;
+}
+@media (min-width: 1025px) {
+  h1 {
+    padding-left: 25px;
+  }
+}
+
+.content-title {
+  text-align: center;
+  padding: 18px 0px 0px 10px;
+}
+@media (min-width: 1025px) {
+  .content-title {
+    text-align: initial;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+nav {
+  background: #123b9d;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (min-width: 1025px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.datos-poke {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1025px) {
+  .datos-poke {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .datos-poke {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.content-pikachu {
+  padding-bottom: 10px;
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content-pikachu {
+    padding-left: 77px;
+  }
+}
+@media (min-width: 1025px) {
+  .content-pikachu {
+    text-align: initial;
+  }
+}
+
+.inputGo {
+  margin: 17px;
+  width: auto;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 20px;
+  padding-left: 14px;
+  height: 40px;
+}
+@media (min-width: 1025px) {
+  .inputGo {
+    height: 32px;
+    width: 198px;
+    padding: 3px 5px 3px 8px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .inputGo {
+    width: 237px;
+  }
+}
+
+.boton-go {
+  border-radius: 15px;
+  background: #85d05ae8;
+  border: 1px solid #85d05ae8;
+  color: #ead9d9;
+  font-size: 20px;
+  font-weight: bold;
+  height: 37px;
+  width: auto;
+  margin: 6px 42px;
+}
+@media (min-width: 1025px) {
+  .boton-go {
+    width: 103px;
+    height: 43px;
+    margin: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .boton-go {
+    margin-top: 14px;
+    width: 200px;
+  }
+}
+
+#img {
+  width: 251px;
+  background: yellow;
+  margin: 0px;
+  position: relative;
+  bottom: 239px;
+}
+
+.img-poke {
+  height: 70px;
+}
+
+.wrapper-img {
+  width: 250px;
+  height: 239px;
+  border: 12px solid yellow;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .wrapper-img {
+    margin: auto;
+  }
+}
+
+.wrapper-id-name {
+  display: inline-block;
+  background: #1158c7;
+  padding: 8px;
+  border-radius: 7px;
+  color: whitesmoke;
+}
+
+.type {
+  padding: 7px;
+  border-radius: 4px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.name-type {
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.cards {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .cards {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
+.egg {
+  height: 238px;
+}
+
+.card-info {
+  padding: 0px;
+  border-radius: 6px;
+  font-size: 20px;
+  background: rgba(211, 211, 155, 0.7);
+  line-height: 54px;
+  margin: 10px;
+}
+@media (min-width: 1025px) {
+  .card-info {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 32px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-info {
+    margin: 30px;
+  }
+}
+
+.card-types {
+  margin-top: 31px;
+  margin-bottom: 36px;
+  padding: 20px;
+  margin: 30px;
+  line-height: 38px;
+  background: rgba(211, 211, 155, 0.7);
+  font-size: 20px;
+}
+
+.font-cards {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.icono {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  bottom: 41px;
+  right: 21px;
+}
+
+.name {
+  border-radius: 6px;
+  font-size: 26px;
+}
+
+.wrapper-pokebola {
+  margin-top: 12px;
+}
+
+.wrapper-pokebola-name {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-name-ability {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .wrapper-name-ability {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper-name-ability {
+    justify-content: center;
+  }
+}
+
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Press Start 2P", cursive;
+  background-image: url("../img/gym-poke.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
